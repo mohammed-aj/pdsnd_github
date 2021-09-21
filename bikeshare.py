@@ -1,3 +1,5 @@
+# Update for: refactoring branch
+
 import time
 import pandas as pd
 import numpy as np
@@ -149,8 +151,8 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df,city)
-        
-    while True:    
+
+    while True:
         condition = input('\nWould you like to print raw data? \n')
         if condition.lower() == 'yes':
             print(df.head())
@@ -161,6 +163,6 @@ def main():
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
-            
+
 if __name__ == "__main__":
     main()
