@@ -6,6 +6,9 @@ Created in 9-july-2021
 ### Project Title
 Explore US Bikeshare Data
 
+###Software
+Python 3.
+
 ### Description
 Use Python to understand US Bikeshare data. Calculate statistics and build an interactive environment where a user chooses the data and filter for a dataset to analyze
 

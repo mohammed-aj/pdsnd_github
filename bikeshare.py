@@ -5,6 +5,8 @@ CITY_DATA = {'chicago': 'chicago.csv',
              'new york city': 'new_york_city.csv',
              'washington': 'washington.csv'}
 def check_input(input_str,input_type):
+
+    # Edit: Date: 21-sep-2021, Modified
     """
     check the validity of the user input
     input_str: is the input of the user
@@ -149,8 +151,8 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df,city)
-        
-    while True:    
+
+    while True:
         condition = input('\nWould you like to print raw data? \n')
         if condition.lower() == 'yes':
             print(df.head())
@@ -161,6 +163,6 @@ def main():
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
-            
+
 if __name__ == "__main__":
     main()
