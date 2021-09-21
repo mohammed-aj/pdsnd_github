@@ -5,6 +5,8 @@ CITY_DATA = {'chicago': 'chicago.csv',
              'new york city': 'new_york_city.csv',
              'washington': 'washington.csv'}
 def check_input(input_str,input_type):
+
+    # Edit: Date: 21-sep-2021, Modified
     """
     check the validity of the user input
     input_str: is the input of the user
